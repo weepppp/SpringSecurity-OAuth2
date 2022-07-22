@@ -43,6 +43,7 @@ https://wx.qq.com/oauth/authorize?response_type=code&client_id=javaboy&redirect_
 |user-server|8081|资源服务器|
 |client-app|8082|第三方应用|
 
+![image](https://user-images.githubusercontent.com/100891076/180454889-58efd4aa-fe03-4475-b8f8-e1de3a496937.png)
 
 
 
