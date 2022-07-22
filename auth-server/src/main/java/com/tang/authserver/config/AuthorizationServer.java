@@ -18,15 +18,17 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 
 /**
  * @author weepppp 2022/7/22 13:49
- * 授权服务器
+ * 配置授权服务器
  * 相关功能：校验code（用户+第三方客户端），生成发送code、token，存储code、token，给资源服务器提供验证token的端口
  **/
 @Configuration
-@EnableAuthorizationServer   //@EnableAuthorizationServer：开启授权服务器的自动化配置
+//@EnableAuthorizationServer：开启授权服务器的自动化配置
+@EnableAuthorizationServer
 public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
 
 
     //注入token的存储对象
+
     @Autowired
     TokenStore tokenStore;
 
