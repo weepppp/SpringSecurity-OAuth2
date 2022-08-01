@@ -1,4 +1,4 @@
-# SpringSecurity-OAuth2
+# SpringSecurity-OAuth2网站第三方登录认证
 
 ❔ 为什么会产生网站第三方登录
 1. 简化注册环节，减少可能因为注册繁琐带来的用户损失；
